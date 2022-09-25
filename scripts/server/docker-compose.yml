@@ -1,0 +1,22 @@
+version: "3"
+
+services:
+  web-server:
+    image: nginx
+    container_name: nginx
+    restart: always
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/:/etc/nginx/conf.d/
+      - /etc/localtime:/etc/localtime
+  app:
+    image: ${APPLICATION_IMAGE}
+    container_name: ${APPLICATION_CONTAINER_NAME}
+    restart: always
+    expose:
+      - "8080"
+    volumes:
+      - ./:/home/ubuntu
+      - /etc/localtime:/etc/localtime
