@@ -47,4 +47,4 @@ jobs:
           passphrase: ${{ secrets.PASSPHRASE }}
           port: ${{ secrets.PORT }}
           script:
-            ./deploy.sh
+            ./scripts/deploy.sh
