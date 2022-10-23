@@ -2,8 +2,8 @@ version: "3"
 
 services:
   web-server:
-    image: nginx
-    container_name: nginx
+    image: ${WEB_SERVER_IMAGE}
+    container_name: ${WEB_SERVER_CONTAINER_NAME}
     restart: always
     ports:
       - "80:80"
