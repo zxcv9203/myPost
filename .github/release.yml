@@ -9,6 +9,7 @@ changelog:
       labels:
         - Semver-Major
         - breaking-change
+        - CI/CD
     - title: Exciting New Features 🎉
       labels:
         - Semver-Minor
