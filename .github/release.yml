@@ -3,10 +3,10 @@ changelog:
     labels:
       - ignore-for-release
   categories:
-    - title: Breaking Changes 🛠
+    - title: 핵심 수정 사항 🛠
       labels:
         - '*'
-    - title: Exciting New Features 🎉
+    - title: 신규 기능 추가 🎉
       labels:
         - Semver-Minor
         - enhancement
