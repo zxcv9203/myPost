@@ -3,11 +3,11 @@ changelog:
     labels:
       - ignore-for-release
     authors:
-      - octocat
+      - zxcv9203
   categories:
     - title: Breaking Changes 🛠
       labels:
-        - Semver-Major
+        - CI/CD
         - breaking-change
     - title: Exciting New Features 🎉
       labels:
